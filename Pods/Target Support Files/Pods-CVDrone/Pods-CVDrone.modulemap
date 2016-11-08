@@ -1,0 +1,6 @@
+framework module Pods_CVDrone {
+  umbrella header "Pods-CVDrone-umbrella.h"
+
+  export *
+  module * { export * }
+}

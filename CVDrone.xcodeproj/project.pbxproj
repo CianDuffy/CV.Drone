@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2ECDE01DD1D61F0095DCE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ECDDF1DD1D61F0095DCE5 /* AppDelegate.swift */; };
+		EC2ECDE21DD1D61F0095DCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2ECDE11DD1D61F0095DCE5 /* Assets.xcassets */; };
+		EC2ECDE51DD1D61F0095DCE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2ECDE31DD1D61F0095DCE5 /* MainMenu.xib */; };
+		EC2ECDF01DD1D61F0095DCE5 /* CVDroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ECDEF1DD1D61F0095DCE5 /* CVDroneTests.swift */; };
+		EC2ECDFB1DD1D61F0095DCE5 /* CVDroneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ECDFA1DD1D61F0095DCE5 /* CVDroneUITests.swift */; };
+		F9357DFF10839311324BA4A6 /* Pods_CVDrone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0077498A8E2CC318E653E8 /* Pods_CVDrone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2ECDEC1DD1D61F0095DCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2ECDD41DD1D61F0095DCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2ECDDB1DD1D61F0095DCE5;
+			remoteInfo = CVDrone;
+		};
+		EC2ECDF71DD1D61F0095DCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2ECDD41DD1D61F0095DCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2ECDDB1DD1D61F0095DCE5;
+			remoteInfo = CVDrone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231138639996B523140D3B72 /* Pods-CVDrone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDrone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CVDrone/Pods-CVDrone.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0077498A8E2CC318E653E8 /* Pods_CVDrone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CVDrone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2ECDDC1DD1D61F0095DCE5 /* CVDrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVDrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2ECDDF1DD1D61F0095DCE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2ECDE11DD1D61F0095DCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2ECDE41DD1D61F0095DCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC2ECDE61DD1D61F0095DCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2ECDEB1DD1D61F0095DCE5 /* CVDroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVDroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2ECDEF1DD1D61F0095DCE5 /* CVDroneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDroneTests.swift; sourceTree = "<group>"; };
+		EC2ECDF11DD1D61F0095DCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2ECDF61DD1D61F0095DCE5 /* CVDroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVDroneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2ECDFA1DD1D61F0095DCE5 /* CVDroneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDroneUITests.swift; sourceTree = "<group>"; };
+		EC2ECDFC1DD1D61F0095DCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A51719E692F9F69D0C86B5 /* Pods-CVDrone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDrone.release.xcconfig"; path = "Pods/Target Support Files/Pods-CVDrone/Pods-CVDrone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2ECDD91DD1D61F0095DCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9357DFF10839311324BA4A6 /* Pods_CVDrone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2ECDE81DD1D61F0095DCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2ECDF31DD1D61F0095DCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78AA07F5C00E4C5F02D93008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0077498A8E2CC318E653E8 /* Pods_CVDrone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E87B7D2A46D1C79FC65101 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				231138639996B523140D3B72 /* Pods-CVDrone.debug.xcconfig */,
+				F5A51719E692F9F69D0C86B5 /* Pods-CVDrone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC2ECDD31DD1D61F0095DCE5 = {
+			isa = PBXGroup;
+			children = (
+				EC2ECDDE1DD1D61F0095DCE5 /* CVDrone */,
+				EC2ECDEE1DD1D61F0095DCE5 /* CVDroneTests */,
+				EC2ECDF91DD1D61F0095DCE5 /* CVDroneUITests */,
+				EC2ECDDD1DD1D61F0095DCE5 /* Products */,
+				E3E87B7D2A46D1C79FC65101 /* Pods */,
+				78AA07F5C00E4C5F02D93008 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2ECDDD1DD1D61F0095DCE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ECDDC1DD1D61F0095DCE5 /* CVDrone.app */,
+				EC2ECDEB1DD1D61F0095DCE5 /* CVDroneTests.xctest */,
+				EC2ECDF61DD1D61F0095DCE5 /* CVDroneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2ECDDE1DD1D61F0095DCE5 /* CVDrone */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ECDDF1DD1D61F0095DCE5 /* AppDelegate.swift */,
+				EC2ECDE11DD1D61F0095DCE5 /* Assets.xcassets */,
+				EC2ECDE31DD1D61F0095DCE5 /* MainMenu.xib */,
+				EC2ECDE61DD1D61F0095DCE5 /* Info.plist */,
+			);
+			path = CVDrone;
+			sourceTree = "<group>";
+		};
+		EC2ECDEE1DD1D61F0095DCE5 /* CVDroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ECDEF1DD1D61F0095DCE5 /* CVDroneTests.swift */,
+				EC2ECDF11DD1D61F0095DCE5 /* Info.plist */,
+			);
+			path = CVDroneTests;
+			sourceTree = "<group>";
+		};
+		EC2ECDF91DD1D61F0095DCE5 /* CVDroneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2ECDFA1DD1D61F0095DCE5 /* CVDroneUITests.swift */,
+				EC2ECDFC1DD1D61F0095DCE5 /* Info.plist */,
+			);
+			path = CVDroneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2ECDDB1DD1D61F0095DCE5 /* CVDrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2ECDFF1DD1D61F0095DCE5 /* Build configuration list for PBXNativeTarget "CVDrone" */;
+			buildPhases = (
+				C64A670A40FDF8593CBEFDCC /* [CP] Check Pods Manifest.lock */,
+				EC2ECDD81DD1D61F0095DCE5 /* Sources */,
+				EC2ECDD91DD1D61F0095DCE5 /* Frameworks */,
+				EC2ECDDA1DD1D61F0095DCE5 /* Resources */,
+				FCA8EFC72C0FE1B8A6AA53D6 /* [CP] Embed Pods Frameworks */,
+				B49AC15AE30A0D148750F16F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVDrone;
+			productName = CVDrone;
+			productReference = EC2ECDDC1DD1D61F0095DCE5 /* CVDrone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2ECDEA1DD1D61F0095DCE5 /* CVDroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2ECE021DD1D61F0095DCE5 /* Build configuration list for PBXNativeTarget "CVDroneTests" */;
+			buildPhases = (
+				EC2ECDE71DD1D61F0095DCE5 /* Sources */,
+				EC2ECDE81DD1D61F0095DCE5 /* Frameworks */,
+				EC2ECDE91DD1D61F0095DCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2ECDED1DD1D61F0095DCE5 /* PBXTargetDependency */,
+			);
+			name = CVDroneTests;
+			productName = CVDroneTests;
+			productReference = EC2ECDEB1DD1D61F0095DCE5 /* CVDroneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2ECDF51DD1D61F0095DCE5 /* CVDroneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2ECE051DD1D61F0095DCE5 /* Build configuration list for PBXNativeTarget "CVDroneUITests" */;
+			buildPhases = (
+				EC2ECDF21DD1D61F0095DCE5 /* Sources */,
+				EC2ECDF31DD1D61F0095DCE5 /* Frameworks */,
+				EC2ECDF41DD1D61F0095DCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2ECDF81DD1D61F0095DCE5 /* PBXTargetDependency */,
+			);
+			name = CVDroneUITests;
+			productName = CVDroneUITests;
+			productReference = EC2ECDF61DD1D61F0095DCE5 /* CVDroneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2ECDD41DD1D61F0095DCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Cian Duffy";
+				TargetAttributes = {
+					EC2ECDDB1DD1D61F0095DCE5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H57DS9J386;
+						ProvisioningStyle = Automatic;
+					};
+					EC2ECDEA1DD1D61F0095DCE5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H57DS9J386;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2ECDDB1DD1D61F0095DCE5;
+					};
+					EC2ECDF51DD1D61F0095DCE5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H57DS9J386;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2ECDDB1DD1D61F0095DCE5;
+					};
+				};
+			};
+			buildConfigurationList = EC2ECDD71DD1D61F0095DCE5 /* Build configuration list for PBXProject "CVDrone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2ECDD31DD1D61F0095DCE5;
+			productRefGroup = EC2ECDDD1DD1D61F0095DCE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2ECDDB1DD1D61F0095DCE5 /* CVDrone */,
+				EC2ECDEA1DD1D61F0095DCE5 /* CVDroneTests */,
+				EC2ECDF51DD1D61F0095DCE5 /* CVDroneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2ECDDA1DD1D61F0095DCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ECDE21DD1D61F0095DCE5 /* Assets.xcassets in Resources */,
+				EC2ECDE51DD1D61F0095DCE5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2ECDE91DD1D61F0095DCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2ECDF41DD1D61F0095DCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B49AC15AE30A0D148750F16F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CVDrone/Pods-CVDrone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64A670A40FDF8593CBEFDCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA8EFC72C0FE1B8A6AA53D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CVDrone/Pods-CVDrone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2ECDD81DD1D61F0095DCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ECDE01DD1D61F0095DCE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2ECDE71DD1D61F0095DCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ECDF01DD1D61F0095DCE5 /* CVDroneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2ECDF21DD1D61F0095DCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2ECDFB1DD1D61F0095DCE5 /* CVDroneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2ECDED1DD1D61F0095DCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2ECDDB1DD1D61F0095DCE5 /* CVDrone */;
+			targetProxy = EC2ECDEC1DD1D61F0095DCE5 /* PBXContainerItemProxy */;
+		};
+		EC2ECDF81DD1D61F0095DCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2ECDDB1DD1D61F0095DCE5 /* CVDrone */;
+			targetProxy = EC2ECDF71DD1D61F0095DCE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2ECDE31DD1D61F0095DCE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2ECDE41DD1D61F0095DCE5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2ECDFD1DD1D61F0095DCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2ECDFE1DD1D61F0095DCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EC2ECE001DD1D61F0095DCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231138639996B523140D3B72 /* Pods-CVDrone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H57DS9J386;
+				INFOPLIST_FILE = CVDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cianduffy.CVDrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC2ECE011DD1D61F0095DCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A51719E692F9F69D0C86B5 /* Pods-CVDrone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H57DS9J386;
+				INFOPLIST_FILE = CVDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cianduffy.CVDrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC2ECE031DD1D61F0095DCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H57DS9J386;
+				INFOPLIST_FILE = CVDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cianduffy.CVDroneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVDrone.app/Contents/MacOS/CVDrone";
+			};
+			name = Debug;
+		};
+		EC2ECE041DD1D61F0095DCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H57DS9J386;
+				INFOPLIST_FILE = CVDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cianduffy.CVDroneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVDrone.app/Contents/MacOS/CVDrone";
+			};
+			name = Release;
+		};
+		EC2ECE061DD1D61F0095DCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H57DS9J386;
+				INFOPLIST_FILE = CVDroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cianduffy.CVDroneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CVDrone;
+			};
+			name = Debug;
+		};
+		EC2ECE071DD1D61F0095DCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H57DS9J386;
+				INFOPLIST_FILE = CVDroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cianduffy.CVDroneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CVDrone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2ECDD71DD1D61F0095DCE5 /* Build configuration list for PBXProject "CVDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2ECDFD1DD1D61F0095DCE5 /* Debug */,
+				EC2ECDFE1DD1D61F0095DCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2ECDFF1DD1D61F0095DCE5 /* Build configuration list for PBXNativeTarget "CVDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2ECE001DD1D61F0095DCE5 /* Debug */,
+				EC2ECE011DD1D61F0095DCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2ECE021DD1D61F0095DCE5 /* Build configuration list for PBXNativeTarget "CVDroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2ECE031DD1D61F0095DCE5 /* Debug */,
+				EC2ECE041DD1D61F0095DCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2ECE051DD1D61F0095DCE5 /* Build configuration list for PBXNativeTarget "CVDroneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2ECE061DD1D61F0095DCE5 /* Debug */,
+				EC2ECE071DD1D61F0095DCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2ECDD41DD1D61F0095DCE5 /* Project object */;
+}
