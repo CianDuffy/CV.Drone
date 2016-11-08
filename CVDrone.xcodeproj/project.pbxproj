@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC2ECDE01DD1D61F0095DCE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ECDDF1DD1D61F0095DCE5 /* AppDelegate.swift */; };
+		EC226DD51DD1E7C700D92673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC226DD41DD1E7C700D92673 /* AppDelegate.swift */; };
+		EC226DD71DD1E86600D92673 /* DroneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC226DD61DD1E86600D92673 /* DroneController.swift */; };
+		EC226DDB1DD1EAC000D92673 /* NodeCopterConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC226DDA1DD1EAC000D92673 /* NodeCopterConnectionManager.swift */; };
 		EC2ECDE21DD1D61F0095DCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2ECDE11DD1D61F0095DCE5 /* Assets.xcassets */; };
 		EC2ECDE51DD1D61F0095DCE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2ECDE31DD1D61F0095DCE5 /* MainMenu.xib */; };
 		EC2ECDF01DD1D61F0095DCE5 /* CVDroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2ECDEF1DD1D61F0095DCE5 /* CVDroneTests.swift */; };
@@ -35,8 +37,10 @@
 /* Begin PBXFileReference section */
 		231138639996B523140D3B72 /* Pods-CVDrone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDrone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CVDrone/Pods-CVDrone.debug.xcconfig"; sourceTree = "<group>"; };
 		6E0077498A8E2CC318E653E8 /* Pods_CVDrone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CVDrone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC226DD41DD1E7C700D92673 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC226DD61DD1E86600D92673 /* DroneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneController.swift; sourceTree = "<group>"; };
+		EC226DDA1DD1EAC000D92673 /* NodeCopterConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeCopterConnectionManager.swift; sourceTree = "<group>"; };
 		EC2ECDDC1DD1D61F0095DCE5 /* CVDrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVDrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC2ECDDF1DD1D61F0095DCE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC2ECDE11DD1D61F0095DCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2ECDE41DD1D61F0095DCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EC2ECDE61DD1D61F0095DCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +96,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EC226DD21DD1E7C700D92673 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC226DD31DD1E7C700D92673 /* Swift Classes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC226DD31DD1E7C700D92673 /* Swift Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC226DD41DD1E7C700D92673 /* AppDelegate.swift */,
+				EC226DD61DD1E86600D92673 /* DroneController.swift */,
+				EC226DDA1DD1EAC000D92673 /* NodeCopterConnectionManager.swift */,
+			);
+			path = "Swift Classes";
+			sourceTree = "<group>";
+		};
 		EC2ECDD31DD1D61F0095DCE5 = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +139,7 @@
 		EC2ECDDE1DD1D61F0095DCE5 /* CVDrone */ = {
 			isa = PBXGroup;
 			children = (
-				EC2ECDDF1DD1D61F0095DCE5 /* AppDelegate.swift */,
+				EC226DD21DD1E7C700D92673 /* Classes */,
 				EC2ECDE11DD1D61F0095DCE5 /* Assets.xcassets */,
 				EC2ECDE31DD1D61F0095DCE5 /* MainMenu.xib */,
 				EC2ECDE61DD1D61F0095DCE5 /* Info.plist */,
@@ -330,7 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2ECDE01DD1D61F0095DCE5 /* AppDelegate.swift in Sources */,
+				EC226DD71DD1E86600D92673 /* DroneController.swift in Sources */,
+				EC226DD51DD1E7C700D92673 /* AppDelegate.swift in Sources */,
+				EC226DDB1DD1EAC000D92673 /* NodeCopterConnectionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
